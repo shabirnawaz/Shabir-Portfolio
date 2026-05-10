@@ -20,18 +20,18 @@ function Home() {
         <HeroBackground />
         {/* Hero Content */}
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold text-white">
+          <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold text-white">
             Hi, I'm{" "}
             <span className="bg-gradient-to-br from-blue-600 to-purple-700 bg-clip-text text-transparent">
               Shabir Afridi
             </span>
           </h1>
 
-          <h4 className="mt-4 text-3xl font-bold md:text-xl text-white ">
+          <h4 className="mt-4 text-2xl sm:text-3xl font-bold md:text-xl text-white ">
             Frontend Developer
           </h4>
           <div className="w-[70%] m-auto">
-            <p className="text-white text-2xl mt-6 ">
+            <p className="text-white sm:text-2xl mt-6 ">
               I’m a React.js Frontend Developer who loves building clean,
               user-friendly and performance-focused web applications.
             </p>
@@ -41,17 +41,17 @@ function Home() {
             Get Started
           </button> */}
         </div>
-        <div className="experience absolute flex gap-5  left-[20%] top-[72%] z-20 p-4">
+        <div className="experience absolute flex gap-5  left-[10%] top-[72%] z-20 p-4">
           <div className="border-r-3 border-white items-center h-14 pr-4">
-            <h3 className="text-white text-2xl">1.5+</h3>
+            <h3 className="text-white sm:text-2xl">1.5+</h3>
             <p className="text-gray-400">Experience</p>
           </div>
           <div className="border-r-3 items-center h-14 pr-4 border-white">
-            <h3 className="text-white text-2xl">50+</h3>
+            <h3 className="text-white sm:text-2xl">50+</h3>
             <p className="text-gray-400">Projects Completed</p>
           </div>
           <div className="">
-            <h3 className="text-white text-2xl">7+</h3>
+            <h3 className="text-white sm:text-2xl">7+</h3>
             <p className="text-gray-400">Happy Clients</p>
           </div>
         </div>
@@ -598,7 +598,7 @@ function Home() {
                 About Me
               </div>
 
-              <h1 class="text-5xl md:text-6xl font-bold text-white tracking-tight">
+              <h1 class=" text-2xl sm:text-6xl font-bold text-white tracking-tight">
                 Hi, I'm <span class="text-blue-600">Shabir Afridi</span>
               </h1>
 
