@@ -41,7 +41,7 @@ function Home() {
             Get Started
           </button> */}
         </div>
-        <div className="experience absolute flex gap-5  left-[10%] top-[72%] z-20 p-4">
+        <div className="experience absolute flex gap-5  sm:left-[16%] top-[72%] z-20 p-4">
           <div className="border-r-3 border-white items-center h-14 pr-4">
             <h3 className="text-white sm:text-2xl">1.5+</h3>
             <p className="text-gray-400">Experience</p>
