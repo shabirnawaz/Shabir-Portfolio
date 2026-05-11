@@ -21,29 +21,7 @@ function RootLayout() {
                 © {new Date().getFullYear()} Shabir Afridi. All rights reserved.
               </p>
 
-              {/* Center - Footer Links */}
-              <ul className="flex items-center gap-5 text-lg">
-                {[
-                  { name: "Home", path: "/" },
-                  { name: "Project", path: "/project" },
-                  { name: "Experience", path: "/experience" },
-                  { name: "Contact", path: "/contact" },
-                ].map((item) => (
-                  <li key={item.name}>
-                    <NavLink
-                      to={item.path}
-                      className={({ isActive }) =>
-                        isActive
-                          ? "text-white font-semibold"
-                          : "text-gray-400 hover:text-white transition"
-                      }
-                    >
-                      {item.name}
-                    </NavLink>
-                  </li>
-                ))}
-              </ul>
-
+            
               {/* Right - Social Icons */}
               <div className="flex gap-5 text-xl">
                 <a

@@ -9,22 +9,22 @@ function Header() {
     <div>
       <header className="items-center p-4 bg-gray-950 text-white fixed top-0 left-0 w-full z-50 shadow-md">
         <nav>
-          <div className="bs-container container flex mx-auto justify-between items-center">
+          <div className="bs-container  flex mx-auto justify-between items-center">
             
             <a href="/">
               <div className="logo flex gap-2 items-center">
                 <div
-                  className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-700 rounded-2xl flex items-center justify-center font-black text-xl shadow-[0_0_30px_rgba(37,99,235,0.4)] group-hover:scale-110 transition-transform text-white"
+                  className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-600 to-purple-700 rounded-2xl flex items-center justify-center font-black sm:text-xl shadow-[0_0_30px_rgba(37,99,235,0.4)] group-hover:scale-110 transition-transform text-white"
                 >
                   SA
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-bold text-white">
+                  <h3 className="sm:text-2xl font-bold text-white">
                     Shabir Afridi
                   </h3>
 
-                  <h5 className="text-1xl text-blue-600">
+                  <h5 className="text-sm sm:text-1xl text-blue-600">
                     FrontEnd Devloper
                   </h5>
                 </div>

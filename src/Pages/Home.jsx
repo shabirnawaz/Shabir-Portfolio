@@ -13,7 +13,7 @@ import { HiCodeBracket, HiCommandLine } from "react-icons/hi2";
 function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gray-950">
         {/* Background Animation */}
@@ -547,8 +547,8 @@ function Home() {
         <div class="max-w-6xl bs-container w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* <!-- Left Side: Image with decorative elements --> */}
           <div class="lg:col-span-5 relative group">
-            <div class="absolute -inset-4 bg-orange-500/10 rounded-3xl -rotate-3 transition-transform duration-500 group-hover:rotate-0"></div>
-            <div class="absolute -inset-4 border border-orange-500/20 rounded-3xl rotate-3 transition-transform duration-500 group-hover:rotate-0"></div>
+            <div class="sm:absolute -inset-4 bg-orange-500/10 rounded-3xl sm:-rotate-3 transition-transform duration-500 group-hover:rotate-0"></div>
+            <div class="sm:absolute -inset-4 border border-orange-500/20 rounded-3xl sm:rotate-3 transition-transform duration-500 group-hover:rotate-0"></div>
 
             <div class="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl bg-zinc-200">
               <img

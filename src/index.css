@@ -34,6 +34,11 @@
   }
 }
 
-.abc {
-  border: 1px solid red;
+@media (max-width: 640px) {
+  p {
+    font-size: 12px;
+  }
+  span {
+    font-size: 14px;
+  }
 }

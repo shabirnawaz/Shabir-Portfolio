@@ -25,8 +25,8 @@ function Contact() {
 
       {/* Hero Content */}
       <div className="relative z-10 text-center max-w-3xl w-full">
-        <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-          Get in <span className="text-blue-500">Touch</span>
+        <h1 className="text-3xl md:text-6xl font-bold text-white mb-4">
+          Get in <span className="text-blue-500 text-4xl md:text-6xl">Touch</span>
         </h1>
         <p className="text-gray-400 mb-12 text-lg md:text-xl">
           Have a project, idea or just want to say hi? I’m always open to
