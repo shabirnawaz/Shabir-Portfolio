@@ -14,7 +14,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Submitted:", formData);
-    alert("Message Sent! (Check console)");
+   
     setFormData({ name: "", email: "", message: "" });
   };
 

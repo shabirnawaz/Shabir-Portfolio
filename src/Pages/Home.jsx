@@ -77,12 +77,10 @@ function Home() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-
             {/* card 1 */}
             <div className="flex justify-center mb-2">
               <a href="https://resume-t9jt.vercel.app/" className="w-full">
                 <div className="card text-white border-2 border-blue-400 hover:border-blue-500 rounded-2xl w-full transition-all duration-300 hover:scale-105 hover:-translate-y-2 transition-all duration-300 hover:scale-105 hover:-translate-y-2">
-                  
                   <div className="card_image">
                     <img
                       src={portpolio}
@@ -92,7 +90,6 @@ function Home() {
                   </div>
 
                   <div className="card_body px-4 py-4 bg-[#090f20] rounded-bl-2xl rounded-br-2xl">
-
                     <div className="flex gap-2 flex-wrap mb-2 mt-3">
                       <span className="bg-blue-500 text-white rounded px-2 py-1 text-sm">
                         React
@@ -110,9 +107,9 @@ function Home() {
                     <h2 className="font-bold mb-2">My Portfolio</h2>
 
                     <p className="mb-3">
-                      Explore my personal projects, web applications, and design work.
+                      Explore my personal projects, web applications, and design
+                      work.
                     </p>
-
                   </div>
                 </div>
               </a>
@@ -122,7 +119,6 @@ function Home() {
             <div className="flex justify-center mb-2">
               <a href="https://kitchen-ptoject.vercel.app" className="w-full">
                 <div className="card text-white border-2 border-blue-400 hover:border-blue-500 rounded-2xl w-full transition-all duration-300 hover:scale-105 hover:-translate-y-2 transition-all duration-300 hover:scale-105 hover:-translate-y-2">
-
                   <div className="card_image">
                     <img
                       src={ketchen}
@@ -132,7 +128,6 @@ function Home() {
                   </div>
 
                   <div className="card_body px-4 py-4 bg-[#090f20] rounded-bl-2xl rounded-br-2xl">
-
                     <div className="flex gap-2 flex-wrap mb-2 mt-3">
                       <span className="bg-blue-500 text-white rounded px-2 py-1 text-sm">
                         Tailwind
@@ -150,9 +145,9 @@ function Home() {
                     <h2 className="font-bold mb-2">Kitchen</h2>
 
                     <p className="mb-3">
-                      Modern kitchen setup with smart storage and easy organization.
+                      Modern kitchen setup with smart storage and easy
+                      organization.
                     </p>
-
                   </div>
                 </div>
               </a>
@@ -165,7 +160,6 @@ function Home() {
                 className="w-full"
               >
                 <div className="card text-white border-2 border-blue-400 hover:border-blue-500 rounded-2xl w-full transition-all duration-300 hover:scale-105 hover:-translate-y-2 transition-all duration-300 hover:scale-105 hover:-translate-y-2">
-
                   <div className="card_image">
                     <img
                       src={shopping}
@@ -175,7 +169,6 @@ function Home() {
                   </div>
 
                   <div className="card_body px-4 py-4 bg-[#090f20] rounded-bl-2xl rounded-br-2xl">
-
                     <div className="flex gap-2 flex-wrap mb-2 mt-3">
                       <span className="bg-blue-500 text-white rounded px-2 py-1 text-sm">
                         React
@@ -193,9 +186,9 @@ function Home() {
                     <h2 className="font-bold mb-2">Shopping Cart App</h2>
 
                     <p className="mb-3">
-                      Add/remove items with quantity and total price calculation.
+                      Add/remove items with quantity and total price
+                      calculation.
                     </p>
-
                   </div>
                 </div>
               </a>
@@ -204,7 +197,6 @@ function Home() {
             {/* card 4 */}
             <div className="flex justify-center mb-2">
               <div className="card text-white border-2 border-blue-400 hover:border-blue-500 rounded-2xl w-full transition-all duration-300 hover:scale-105 hover:-translate-y-2 transition-all duration-300 hover:scale-105 hover:-translate-y-2 ">
-
                 <div className="card_image">
                   <img
                     src={localgrpth}
@@ -214,7 +206,6 @@ function Home() {
                 </div>
 
                 <div className="card_body px-4 py-4 bg-[#090f20] rounded-bl-2xl rounded-br-2xl">
-
                   <div className="flex gap-2 flex-wrap mb-2 mt-3">
                     <span className="bg-blue-500 text-white rounded px-2 py-1 text-sm">
                       React
@@ -234,11 +225,9 @@ function Home() {
                   <p className="mb-3">
                     Modern project with responsive UI and clean user experience.
                   </p>
-
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
